@@ -1,17 +1,18 @@
 #include<iostream>
+#include<cmath>
 int main() {
 
 	using namespace std;
 
-	cout << "¹þ¹þ¹þ¹þ¹þ¹þ¹þ¹þ¹þ";
-	cout << endl;
-	cout << "1232342342342342" << endl;
-	int carrots = 25;
-	cout << carrots;
-	cout << "carrots. ";
-	cout << endl;
-	carrots = carrots - 1;
-	cout << "I Have " << carrots << " carrots." << endl;
+	//cout << "¹þ¹þ¹þ¹þ¹þ¹þ¹þ¹þ¹þ";
+	//cout << endl;
+	//cout << "1232342342342342" << endl;
+	//int carrots = 25;
+	//cout << carrots;
+	//cout << "carrots. ";
+	//cout << endl;
+	//carrots = carrots - 1;
+	//cout << "I Have " << carrots << " carrots." << endl;
 
 	//cout << "ÇëÊäÈëÄãÏëÒªµÄÊýÁ¿£º"<<endl;
 	//cin >> carrots;
@@ -19,9 +20,34 @@ int main() {
 	//carrots = carrots + 2;
 
 	//cout << "ÏÖÔÚµÄÊýÁ¿ " << carrots << " carrots." << endl;
-	double x = sqrt(6.25);
-	cout << x;
-	return (0);
+	//double x = sqrt(6.25);
+	//std::cout << x<< std::endl;
+	//double xx = pow(5, 8);
+	//std::cout << xx<< std::endl;
+	//double xxx = rand();
+	//std::cout << xxx<< std::endl;
+	//bucks(15.2);
+	/*cout << "ÊäÈëÐ¡Ê±£º ";
+	int hours;
+	cin >> hours;
+	cout << "ÊäÈë·ÖÖÓ£º ";
+	int min;
+	cin >> min;
+	cout << "Time: "<< hours << ":"<< min;*/
+
+	//char ch = 'M';
+	//cin >> ch;
+	//int i = ch;
+	//cout << i;
+	//char alarm = '7';
+	//cout << alarm;
+
+	cout << "\aÊäÈë \"ÃÜÂë\"£º_____________\b\b\b\b\b\b\b\b\b\b\b\b\b";
+	long code;
+	cin >> code;
+	cout << "\aÄãÊäÈëÁË " << code<< "...\n";
+
+	return sizeof(int);
 
 
 
