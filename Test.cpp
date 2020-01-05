@@ -58,7 +58,16 @@ int main() {
 	//cout << aa[0] << "\n";//52
 	//cout << aa[1] << "\n";//21
 	//cout << aa[2] << "\n";//5
-	return sizeof(aa[2]);
+	const int ArSize = 20;
+	char name[ArSize];
+	char dessert[ArSize];  //徐海港 苹果
+	cout << "输入名字：\n";
+	cin >> name;
+	cout << "输入你最爱的食物：\n";
+	cin >> dessert;
+	cout << "我有一些美味的 " << dessert
+	     << " 给你， " << name << endl;
+	return 0;
 
 
 
