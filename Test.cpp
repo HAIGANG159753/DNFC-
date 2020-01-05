@@ -42,12 +42,23 @@ int main() {
 	//char alarm = '7';
 	//cout << alarm;
 
-	cout << "\a输入 \"密码\"：_____________\b\b\b\b\b\b\b\b\b\b\b\b\b";
+	/*cout << "\a输入 \"密码\"：_____________\b\b\b\b\b\b\b\b\b\b\b\b\b";
 	long code;
 	cin >> code;
-	cout << "\a你输入了 " << code<< "...\n";
+	cout << "\a你输入了 " << code<< "...\n";*/
 
-	return sizeof(int);
+	/*wchar_t b = L'P';
+	wcout << L"tall" << endl;
+
+	cout.setf(ios_base::fixed, ios_base::floatfield);
+	float tub = 10.0 / 3.0;
+	cout << tub * 1.0e6;*/
+
+	//int aa[3] = { 52,21,5 };//和int aa[3] { 52,21,5 }; 一样
+	//cout << aa[0] << "\n";//52
+	//cout << aa[1] << "\n";//21
+	//cout << aa[2] << "\n";//5
+	return sizeof(aa[2]);
 
 
 
