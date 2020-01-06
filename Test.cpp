@@ -1,5 +1,6 @@
 #include<iostream>
 #include<cmath>
+#include<string>
 int main() {
 
 	using namespace std;
@@ -58,15 +59,31 @@ int main() {
 	//cout << aa[0] << "\n";//52
 	//cout << aa[1] << "\n";//21
 	//cout << aa[2] << "\n";//5
-	const int ArSize = 20;
-	char name[ArSize];
-	char dessert[ArSize];  //徐海港 苹果
-	cout << "输入名字：\n";
-	cin >> name;
-	cout << "输入你最爱的食物：\n";
-	cin >> dessert;
-	cout << "我有一些美味的 " << dessert
-	     << " 给你， " << name << endl;
+	//const int ArSize = 20;
+	//char name[ArSize];
+	//char dessert[ArSize];  //徐海港 苹果
+	//cout << "输入名字：\n";
+	//cin >> name;
+	//cout << "输入你最爱的食物：\n";
+	//cin >> dessert;
+	//cout << "我有一些美味的 " << dessert
+	//     << " 给你， " << name << endl;
+	char charr1[20];
+	char charr2[20] = "jaguar";
+	string str1;
+	string str2 = "panther";
+
+	cout << "输入一种feline: ";
+	cin >> charr1;
+	cout << "输入另一种feline: ";
+	cin >> str1;
+	cout << "现在我们有一些felines:\n";
+	cout << charr1 << " " << charr2 << " "
+		<< str1 << " " << str2
+		<< endl;
+	cout << charr2[2] << endl;
+	cout << str2[2] << endl;
+
 	return 0;
 
 
