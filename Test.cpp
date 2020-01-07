@@ -68,7 +68,7 @@ int main() {
 	//cin >> dessert;
 	//cout << "我有一些美味的 " << dessert
 	//     << " 给你， " << name << endl;
-	char charr1[20];
+	/*char charr1[20];
 	char charr2[20] = "jaguar";
 	string str1;
 	string str2 = "panther";
@@ -82,8 +82,38 @@ int main() {
 		<< str1 << " " << str2
 		<< endl;
 	cout << charr2[2] << endl;
-	cout << str2[2] << endl;
+	cout << str2[2] << endl;*/
 
+	/*int aa = 6;
+	double bb = 6.24;
+
+	cout << &aa << endl;
+
+	cout << &bb;*/
+
+	/*int nights = 1001;
+	int* pt = new int;
+	*pt = 1001;
+
+	cout << "nights value= ";
+	cout << nights << ": location " << &nights << endl;
+
+	cout << "int ";
+	cout << "value= " << *pt << ":location= " << pt << endl;*/
+
+	double* p3 = new double[3];
+
+	p3[0] = 0.2;
+	p3[1] = 0.5;
+	p3[2] = 0.8;
+
+	cout << "p3[1] is " << p3[1] << endl;
+	p3 = p3 + 1;
+
+	cout << "now p3[0] is " << p3[0] << " and ";
+	cout << "p3[1] is " << p3[1] << ".\n";
+	p3 = p3 - 1;
+	delete[] p3;
 	return 0;
 
 
