@@ -139,7 +139,7 @@ void main()
 
 		imshow("dst", dst);
 		DeleteObject(hBmp);
-		waitKey(200);//这里调节帧数  现在200ms是5帧
+		waitKey(10);//这里调节帧数  现在200ms是5帧
 	}
 
 
